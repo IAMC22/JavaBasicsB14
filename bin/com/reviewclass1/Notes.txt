@@ -1,0 +1,63 @@
+Type Casting (primitive):
+Type casting is converting one data type to another one.
+For example we can convert a short byte a long to float etc..
+THere are two main types implicit/widening/automatic and explicit/narrowing/manual.
+
+Implicit/widening/automatic Type casting:
+When java converts the data types automatically for us. it only happens when we assigning
+a smaller data type to a larger data type, because there is not data type lost in this conversion and it easily fits in the larger data type.
+
+Explicit/narrowing/manual type casting:
+When we convert a larger data type to a smaller data type it is called
+explicit/narrowing/manual. It doesn't happen automatically we have to do it explicitly manually.
+
+Why we should learn type casting?
+When we write code in our real life most of the time we use the code
+from others to save time and we might also need to convert the data types to 
+make our code compatible with their code.
+What is the syntax for type casting?
+we use() and inside the () we write the destination data type for example
+if we want to convert a long to an int this is how we do it.
+long var1=250;
+explicit/narrowing/manual ex:
+int var2=(int)var1; // its explicit/narrowing/manual
+
+Implicit/widening/automatic ex:
+double var3=var2;
+ex 2:
+float f=250.5f;
+doubled=f;
+==========================================================================================================
+If else conditions
+ Is else conditions help us write code that can take the decision based on data.
+ Why we should learn a out if else?
+  Because when we are solving a real life problem like testing a web site our
+  programs need to make a lot of decisions.
+    IF (the given user name and password matches)\{go to home page} ELSE {user gives warning}
+    What is the syntax for if else conditions?
+  boolean isHungry=true;
+  
+  if(isHungry){ //always right something that is true or false or is the data type
+  System.out.println("Please Eat Something");
+  }else{
+  System.out.println(Lets Build Java Programs")
+  }
+  ==================================================================================
+  Nested if conditions:
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+
+}
+
+}
+
